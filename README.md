@@ -9,7 +9,7 @@ npm install -g @tarojs/cli
 ```
 taro init myApp
 ```
-[初始化](./init.png)
+![初始化](./init.png)
 
 安装"taro-ui": "^3.1.0-beta.4"
 
