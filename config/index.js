@@ -1,3 +1,4 @@
+const path = require('path')
 const config = {
   projectName: 'my-app-preact',
   date: '2022-11-25',
@@ -9,6 +10,9 @@ const config = {
   },
   sourceRoot: 'src',
   outputRoot: 'dist',
+  alias: {
+		'@': path.resolve(__dirname, '..', 'src')
+	},
   plugins: [],
   defineConstants: {
   },
